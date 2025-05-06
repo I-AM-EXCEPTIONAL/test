@@ -1,0 +1,36 @@
+{%extends 'base.html' %}
+
+{%block title%} contact {%endblock%}
+
+{%block content%}
+    <!-- Contact Start -->
+    <div class="container-fluid py-3">
+        <div class="container">
+            <div class="bg-light py-2 px-4 mb-3">
+                <h3 class="m-0">Contact Us For Any Queries</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="bg-light mb-3" style="padding: 30px;">
+                        <h6 class="font-weight-bold">Get in touch</h6>
+                        <p>Your bridge to dream careers. Connect with the right opportunities and land your perfect job.
+                            Don't navigate the job hunt alone Next Step Jobs connects you with the resources and guidance to take the next step towards success.</p>
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fa fa-2x fa-envelope-open text-primary mr-3"></i>
+                            <div class="d-flex flex-column">
+                                <h6 class="font-weight-bold">Email Us</h6>
+                                <a href="mailto:hr@nextstepjobs.info" style="color: blue;" >hr@nextstepjobs.info</a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    {% include 'social.html' %} 
+    {% include 'footer.html' %}
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+    
+    {%endblock%}
